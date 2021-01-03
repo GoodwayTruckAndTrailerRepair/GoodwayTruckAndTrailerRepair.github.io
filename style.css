@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: .8rem;
+
+}
+.navbar li {
+  padding-right: 20px;
+
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption .subtitle {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+}
+.btn-primary {
+  background-color: #00008b;
+  border: 1px solid #563d7c;
+}
+.btn-primary:hover {
+  background-color: #DCDCDC;
+  border: 1px solid #563d7c;
+}
+
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  margin: 0 auto;
+  padding-top: 2rem;
+  width: 75%;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-code {
+  color: #e54d26;
+}
+.fa-bold {
+  color: #563d7c;
+}
+.fa-css3 {
+  color: #2163af;
+}
+.fa-code,
+.fa-bold,
+.fa-css3 {
+  margin: 1rem;
+  font-size: 4em;
+}
+
+
+
+.social a {
+  padding: 3rem;
+  font-size: 4.5em;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+
+
+.fa-facebook:hover,
+.fa-google-plus-g:hover,
+ {
+  color: #d5d5d5;
+}
+
+footer {
+  padding-top: 2rem;
+  background-color: #3f3f3f;
+}
+footer,
+footer a {
+  color: #d5d5d5;
+}
+hr.light,
+hr.light-100 {
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+}
+hr.light-100 {
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+  }
+  .carousel-caption .subtitle {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem
+  }
+  .carousel-caption .btn {
+    padding: 8px 14px;
+    font-size: 95%;
+  }
+
+  .display-4 {
+    font-size: 200%;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+  .carousel-caption .subtitle {
+    font-size: 110%;
+  }
+  .carousel-caption .btn {
+    padding: 4px 8px;
+    font-size: 90%;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+
+  .display-4 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+}
+
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
